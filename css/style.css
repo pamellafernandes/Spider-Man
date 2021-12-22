@@ -1,0 +1,156 @@
+body {
+  background: #ce0303;
+  background: linear-gradient(112deg, #1504ad 30%, #ac0e16 80%);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  height: 70%;
+  position: relative;
+  -webkit-box-shadow: 0 0 1 rem 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 1 rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  background: inherit;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.1);
+          box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.1);
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  margin: -20px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 30px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  padding: 0;
+  cursor: pointer;
+}
+
+nav ul li {
+  margin: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul li.active {
+  background: #ca0919;
+  padding: 3px 15px;
+  border-radius: 10px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.content img {
+  position: absolute;
+  width: 40%;
+  top: -15%;
+  left: 45%;
+  -webkit-transform: translate(-20%, -10%) rotate(-5deg);
+          transform: translate(-20%, -10%) rotate(-5deg);
+}
+
+.content .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .social-media svg {
+  margin: 15px 30px;
+  cursor: pointer;
+}
+
+.content-text {
+  color: #fff;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.content h1, .content h3 {
+  margin: 0;
+}
+
+.content h1 {
+  font-size: 56px;
+}
+
+.content h3 {
+  font-size: 30px;
+}
+
+.content .content-text.right {
+  text-align: right;
+  margin-top: 150px;
+}
+
+.content .content-text.left {
+  margin-top: -250px;
+}
+
+keyframes move from {
+  -webkit-transform: translate(-20%, -20%) rotate(-5deg);
+          transform: translate(-20%, -20%) rotate(-5deg);
+}
+/*# sourceMappingURL=style.css.map */
