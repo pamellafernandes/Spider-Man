@@ -92,11 +92,11 @@ nav ul li.active {
 
 .content img {
   position: absolute;
-  width: 40%;
-  top: -15%;
-  left: 45%;
-  -webkit-transform: translate(-20%, -10%) rotate(-5deg);
-          transform: translate(-20%, -10%) rotate(-5deg);
+  width: 45%;
+  top: -10%;
+  left: 40%;
+  -webkit-transform: translate(-20%, -10%) rotate(-1deg);
+          transform: translate(-20%, -10%) rotate(-1deg);
 }
 
 .content .social-media {
