@@ -16,4 +16,4 @@
 
 
 <h3 align="center" style="font-size: 3rem";>Principal tela</h3>
-<img src="img/spiderman.png">
+<img src="img/spider-man.png">
