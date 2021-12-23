@@ -148,9 +148,4 @@ nav ul li.active {
 .content .content-text.left {
   margin-top: -250px;
 }
-
-keyframes move from {
-  -webkit-transform: translate(-20%, -20%) rotate(-5deg);
-          transform: translate(-20%, -20%) rotate(-5deg);
-}
 /*# sourceMappingURL=style.css.map */
