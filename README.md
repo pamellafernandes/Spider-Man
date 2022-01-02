@@ -6,9 +6,10 @@
 
 ### Skills
 
-- [x] HTML5
-- [x] SCSS
+<div>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 
+</div>
 
 <h2 align="center"> 
 	 🚀 Projeto concluído com sucesso... 🚀
