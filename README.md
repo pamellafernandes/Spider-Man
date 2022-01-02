@@ -11,9 +11,9 @@
 <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
 </div>
 
-<h2 align="center"> 
+<h1 align="center"> 
 	 🚀 Projeto concluído com sucesso... 🚀
-</h4>
+</h1>
 
 
 <h1 align="center" style="font-size: 3rem";>Principal tela</h1>
