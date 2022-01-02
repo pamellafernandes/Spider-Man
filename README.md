@@ -4,7 +4,7 @@
 ## Descrição do Projeto
 <p align="center">Este projeto é uma inspiração do meu herói favorito.</p>
 
-### Tecnologias
+### Skills
 
 - [x] HTML5
 - [x] SCSS
