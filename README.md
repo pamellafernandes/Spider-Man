@@ -16,5 +16,5 @@
 </h4>
 
 
-<h3 align="center" style="font-size: 3rem";>Principal tela</h3>
+<h1 align="center" style="font-size: 3rem";>Principal tela</h1>
 <img src="img/spiderman.png">
